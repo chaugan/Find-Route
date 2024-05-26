@@ -57,8 +57,10 @@ index=firewall_logs action=permitted | table src_ip dest_ip dest_port dest_port_
 Use the `| map` command to trigger the Python script with the necessary arguments:
 
 ```spl
-| inputlookup traffic_data.csv | map search="| script python find_route.py 0 traffic_data.csv 10.0.0.0/24 10.0.0.4 byFastest 1"
+| map search="| script python find_route.py 0 $SPLUNK_HOME/var/run/splunk/csv/traffic_data.csv 10.0.0.0/24 10.0.0.4 byFastest 1"
 ```
+
+Remember that the `| outputcsv` outputs only to the Splunk directory `$SPLUNK_HOME/var/run/splunk/csv`. This directory cannot be changed.
 
 ## Screenshots
 
