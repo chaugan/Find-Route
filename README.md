@@ -37,7 +37,6 @@ python find_route.py <delete_flag> <input_csv> <start_ip_or_subnet> <end_ip_or_s
 
 ### Example Command
 
-```sh
 python find_route.py 0 traffic_data.csv 10.0.0.0/24 10.0.0.4 byFastest 1
 ```
 
