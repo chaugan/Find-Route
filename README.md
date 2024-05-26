@@ -67,21 +67,21 @@ Include three screenshots of a dashboard showing how the data can be presented. 
 
 ### Screenshot 1
 
-*Description of the first screenshot.*
+*All jumphost routes between Subnet A and Subnet B, outlying routes which are single jumphost needed*
 
-![Screenshot 1](path/to/screenshot1.png)
+![Screenshot 1](screenshot1.png)
 
 ### Screenshot 2
 
-*Description of the second screenshot.*
+*Zoomed in view of the diagram*
 
-![Screenshot 2](path/to/screenshot2.png)
+![Screenshot 2](screenshot2.png)
 
 ### Screenshot 3
 
-*Description of the third screenshot.*
+*When only single jumphost is filtered, the jumps can be seen better. Here well-known ports are favourized in red*
 
-![Screenshot 3](path/to/screenshot3.png)
+![Screenshot 3](screenshot3.png)
 
 ## Project Structure
 
